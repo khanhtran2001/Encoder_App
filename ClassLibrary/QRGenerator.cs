@@ -6,43 +6,13 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary 
 {
-    class QRGenerator : IHeader,IFooter,IOptimazationAction
+    public class QRGenerator
     {
-        string rawContent { get; set; }
-        public void getFooterContent()
+        public string setRawContent(string content)
         {
-            throw new NotImplementedException();
+            return content;
         }
 
-        public IHeader getHeader()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void getHeaderContent()
-        {
-            throw new NotImplementedException();
-        }
-
-        public string optimize(string content)
-        {
-            throw new NotImplementedException();
-        }
-
-        void addHeader(IHeader header)
-        {
-
-        }
-        
-        void setFooter(IFooter footer)
-        {
-
-        }
-        
-        void generate()
-        {
-
-        }
     }
 }
 

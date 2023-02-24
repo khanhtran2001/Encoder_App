@@ -2,15 +2,16 @@
 {
     public class CodeContent
     {
-        public string content { get; set; }
-        public int contentLimit { get; set; }
-        public void modifyContent(string content)
+        private string content = "";
+        
+        
+        public void ChangeContent(string content)
         {
-
+            this.content = content;
         }
         public string getRawContent()
         {
-            return "";
+            return this.content;
         }
         public string getDisplayContent()
         {

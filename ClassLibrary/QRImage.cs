@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    class QRImage
+    public class QRImage
     {
-        string content { get; set; }
-        void save(string content)
+        public string content;
+        public void save(string content)
         {
 
         }
