@@ -62,7 +62,7 @@ namespace UI
             // codeBlock
             // 
             this.codeBlock.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.codeBlock.Location = new System.Drawing.Point(420, 127);
+            this.codeBlock.Location = new System.Drawing.Point(428, 127);
             this.codeBlock.Multiline = true;
             this.codeBlock.Name = "codeBlock";
             this.codeBlock.ScrollBars = System.Windows.Forms.ScrollBars.Both;
@@ -74,7 +74,7 @@ namespace UI
             // 
             this.convertButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.convertButton.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.convertButton.Location = new System.Drawing.Point(336, 439);
+            this.convertButton.Location = new System.Drawing.Point(340, 424);
             this.convertButton.Name = "convertButton";
             this.convertButton.Size = new System.Drawing.Size(89, 39);
             this.convertButton.TabIndex = 3;
