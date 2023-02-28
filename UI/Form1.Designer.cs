@@ -51,7 +51,7 @@ namespace UI
             // 
             this.uploadButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.uploadButton.ForeColor = System.Drawing.Color.Blue;
-            this.uploadButton.Location = new System.Drawing.Point(131, 227);
+            this.uploadButton.Location = new System.Drawing.Point(133, 229);
             this.uploadButton.Name = "uploadButton";
             this.uploadButton.Size = new System.Drawing.Size(121, 42);
             this.uploadButton.TabIndex = 1;
@@ -62,7 +62,7 @@ namespace UI
             // codeBlock
             // 
             this.codeBlock.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.codeBlock.Location = new System.Drawing.Point(428, 127);
+            this.codeBlock.Location = new System.Drawing.Point(397, 130);
             this.codeBlock.Multiline = true;
             this.codeBlock.Name = "codeBlock";
             this.codeBlock.ScrollBars = System.Windows.Forms.ScrollBars.Both;
